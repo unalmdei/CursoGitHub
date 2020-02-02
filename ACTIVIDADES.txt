@@ -1,0 +1,28 @@
+ACTIVIDADES
+===========
+
+PARTE A:
+
+1. Inicialice un repositorio en local con el nombre "PROYECTO" dentro de la carpeta coloque un archivo .html, 
+un archivo .xls y un archivo word.
+2. Cree una rama adicional al proyecto anterior con el nombre "ProyecR1", luego agregar un archivo .jpg y modificar el archivo excel anterior. 
+3. Carge el repositorio local a un repositrio remoto en GitHub.
+4. Realice modificaciones en el repositorio remoto.
+5. Actualice el repositorio local con las modificaciones realizadas en el repositorio remoto
+
+NOTA: para todos los casos no olvide realizar los commits necesrios
+
+
+PARTE B:
+Grupo de dos participantes: C y D
+participante C:
+1. Cree un proyecto en Rstudio- local con control de versiones, cree en el proyecto al menos un archivo .rmd y .r
+2. Cargar el proyecto a Github.
+3. Realice cambios de manera remota y actualícelos al local
+
+participante D:
+4. Realice un fork al proyecto del estudiante C realice un cambio creando una nueva rama solicite colaborar con el proyecto a través de
+un pull request.
+
+particiante D:
+5. Revise el pull request, coméntelo y acepte el requerimiento
