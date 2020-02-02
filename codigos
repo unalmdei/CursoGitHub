@@ -1,0 +1,67 @@
+git --version	#muestra la versión de Git instalada
+
+##Para configurar:
+
+git config --global user.name "example"
+git config --global user.email "example@email.com"
+
+git init	#inicializa un repositorio
+
+git status	#muestra el estado del stating area
+
+git add archivos	#adiciona archivos en el stating area
+
+git add .	#adiciona todos los archivos en el stating area
+
+git commit -m "mensaje"	#crea una instantanea agregando un mensaje
+
+git log	#muestra lista de commits recientes
+
+git log --stat	#muestra las estadśiticas de los archivos que han cambiado en cada commit.
+
+git log --online --decorate --all -graph	#muestra de manera resumida los commits
+
+git diff commit1 commit2	#compara cambios entre dos commits
+
+git diff	#compara cambios entre el 'stating area' y 'working directory'
+
+git diff --staged	#compara cambios entre el 'stating area' y 'repository'
+
+git reset --hard	#descarta cualquier cambio en el 'stating area' o 'working directory'. Con cuidado
+
+git checkout commit	#
+
+git config --global color.ui auto	#configura colores para el reporte de git diff
+
+git clone	#clona un repositorio
+
+git branch	#muestra el branch (rama) activa
+
+git branch nombre	#crea un branch con la etiqueta nombre
+
+git checkout nombre	#activa la rama con etiqueta nombre
+
+git show commit_id	#compara el commit con sus padres
+
+git log --graph --oneline master rama	#
+
+git checkout -b nueva_rama	#genera una nueva rama y coloca el HEAD en esa rama
+
+git merge rama	#combina los cambio de rama en la rama activa
+
+git branch -d rama	#borra el branch rama
+
+git merge rama1 rama2	#combina la rama1 y la rama2 en la rama activa
+
+git log --oneline --decorate --all --graph	#muestra en forma resumida el historial
+
+##Para configurar:
+
+git config --global user.name "example"
+git config --global user.email "example@email.com"
+
+
+ls -a	#permite visulaizar los archivos ocultos
+
+
+
